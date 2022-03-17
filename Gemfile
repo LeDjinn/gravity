@@ -66,6 +66,7 @@ end
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem "rack-cors", :require => "rack/cors"
+gem 'rails_same_site_cookie', '~> 0.1.9'
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
